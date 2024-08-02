@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size:50px;
+    color:red;
+}
+.clock{
+    font-size: 40px;
+    margin-top: 20px;
+}
+button{
+    height: 60px;
+    width: 120px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+#start{
+    background-color: rgb(13, 236, 13);
+    transition-duration: 2s;
+}
+#start:hover{
+    background-color: rgb(10, 201, 10);
+}
+#stop{
+    background-color: rgb(246, 9, 9);
+    transition-duration: 2s;
+}
+#stop:hover{
+    background-color: rgb(148, 6, 6);
+}
+#reset{
+    background-color: rgb(9, 155, 246);
+    transition-duration: 2s;
+}
+#reset:hover{
+    background-color: rgb(2, 86, 164);
+}
